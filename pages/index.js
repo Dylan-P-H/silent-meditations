@@ -11,7 +11,7 @@ function HomePage(props) {
         <title>Silent Meditations</title>
         <meta
           name="description"
-          content="Browse a huge list of Silent Meditations!"
+          content="Browse a huge list of Silent Meditations near you!"
         />
       </Head>
       <MeetupList meetups={props.meetups} />;
